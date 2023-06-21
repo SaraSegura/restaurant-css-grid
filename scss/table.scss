@@ -1,0 +1,17 @@
+main .hero {
+  grid-template-columns: 2fr;
+  padding-left: 0;
+  text-align: center;
+
+  .image-hero {
+    display: none;
+  }
+}
+main .dishes .dishes-grid {
+  grid-template-columns: repeat(auto-fit, minmax(65px, 150px));
+  margin: 0 10px 0 10px;
+}
+
+main .menu .menu-grid-item {
+  grid-template-columns: repeat(auto-fit, minmax(75px, 150px));
+}

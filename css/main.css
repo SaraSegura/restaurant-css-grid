@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+main .hero {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: 400px;
+  padding: auto 0;
+  background-color: rgb(255, 222, 250);
+  padding-left: 20%;
+}
+main .hero .info {
+  align-self: center;
+}
+main .hero .info h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 40px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+main .hero .info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+main .hero .info button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 121, 32);
+  padding: 10px 40px;
+  color: white;
+  cursor: pointer;
+}
+main .hero .info button:hover {
+  transform: scale(1.2);
+  background-color: rgb(250, 253, 57);
+}
+main .hero .image-hero {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .dishes {
+  margin: 100px 0;
+}
+main .dishes h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 50px;
+  font-size: 1.4rem;
+}
+main .dishes .dishes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 200px));
+  grid-auto-rows: 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+main .dishes .dishes-grid .dishes-item__big {
+  grid-area: 1/1/3/3;
+}
+main .dishes .dishes-grid .dishes-item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .menu {
+  margin-bottom: 100px;
+}
+main .menu h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 50px;
+  font-size: 1.4rem;
+}
+main .menu .menu-grid-item {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(5, minmax(100px, 250px));
+}
+main .menu .menu-grid-item img {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 222, 250);
+  border-top-left-radius: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=main.css.map */
