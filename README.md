@@ -1,8 +1,9 @@
 
-[# Restaurant - Explora la Experiencia Gastronómica 🍽️🌟](https://sarasegura.github.io/restaurant-css-grid/)
+# [Restaurant - Explora la Experiencia Gastronómica 🍽️🌟](https://sarasegura.github.io/restaurant-css-grid/)
 ¡Bienvenid@ al proyecto Restaurante! Este proyecto fue creado para practicar el uso de CSS Grid en la maquetación de una página web de restaurante. 
 
 <img src="https://github.com/sarasegura/restaurant-css-grid/assets/137323950/20b6a923-adad-4b16-b396-db36c93d8f00" width="400" height="300" >
+
 ## Objetivos del Proyecto
 
 - **Práctica de CSS Grid:** Desarrollar habilidades en el uso efectivo de CSS Grid para la maquetación de páginas web.
